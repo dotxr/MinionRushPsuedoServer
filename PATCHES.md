@@ -20,8 +20,8 @@ Player state lives in the app's data folder. Logs go to logcat (`mroffline`) and
 - `eglChooseConfig()`: retries without MSAA when the device has no 4x MSAA config.
 
 The server also has:
-- **Free shop:** sets every hestia `offline_store` price to 1. A price of 0 hides the item, and prices are cached in
-  the save, so this only reaches a fresh install.
+- **Cheap IAP:** real-money items cost 1 banana (0 hides them). In-game prices, including costume card counts, are
+  unchanged: 1-card upgrades broke the 7.3.0i tutorial. Prices are cached in the save, so this reaches fresh installs.
 - **Content resync:** when the bundled TOC changes, it clears downloaded content so the game fetches it again.
 - **Daily challenge:** schedules one daily challenge room per day.
 

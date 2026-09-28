@@ -50,10 +50,6 @@ for slot in cfg["game"]["_Slots"].values():
 FREE = [{"price": [{"currency": "bananas", "price": 1}], "replaced_price": None, "name": "offline", "type": "offline"}]
 for p in cfg["iap"]["prices"]:
     p["billing_methods"] = FREE
-for p in cfg["offline_store"]["prices"]:
-    for bm in p["billing_methods"]:
-        for c in bm["price"]:
-            c["price"] = 1
 text = json.dumps(cfg, separators=(",", ":"))
 assert '"_Slots":{' in text
 put("hestia_config.json", text.encode())
