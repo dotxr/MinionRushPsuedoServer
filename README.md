@@ -5,7 +5,6 @@ ships next to it. On Android a stand-in for Play Asset Delivery loads the packs,
 the local server.
 
 ## Supported versions
-
 | Version | Platform | Status | Game data |
 |---|---|---|---|
 | 9.7.1b | Android | experimental | `build_bundle.py` |
@@ -20,12 +19,10 @@ the local server.
 Prebuilt APKs and IPAs are in [Minion-Rush-Revival-Builds](https://github.com/dotxr/Minion-Rush-Revival-Builds).
 
 ## Game data
-
 All game data (TOCs, hash files and iris assets) comes from
 [Minion-Rush-Cache-Archive](https://github.com/dotxr/Minion-Rush-Cache-Archive).
 
 ## Layout
-
 - `src/`: the in-app server (C, mbedTLS, cJSON), plus the Android and iOS start-up code and connect hooks
 - `revivalpacks/`: `RevivalPacks`, the Android pack loader
 - `build.sh`, `build_bundle.py`, `build_bundle_1677.py`, `merge_parts.py`, `build_apk.py`, `build_ipa.py`,
