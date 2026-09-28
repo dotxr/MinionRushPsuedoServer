@@ -1,0 +1,11 @@
+build/
+cache/
+bundle_*/
+mbedtls-*/
+dex_*
+/mnhtn_*
+*.apk
+*.ipa
+!/mnhtn_toc_android_730
+revivalpacks_*.dex
+.DS_Store
