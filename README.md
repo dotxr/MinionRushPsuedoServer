@@ -13,6 +13,10 @@ the local server.
 | 7.3.0i | Android | experimental | `build_bundle.py` (Amazon 7.3.0b set) |
 | 5.7.0h | Android | buggy | `build_bundle_1677.py` |
 
+| 9.7.1b | 9.6.1b | 7.3.0i | 5.7.0h |
+|---|---|---|---|
+| ![9.7.1b](screenshots/9.7.1b.jpg) | ![9.6.1b](screenshots/9.6.1b.jpg) | ![7.3.0i](screenshots/7.3.0i.jpg) | ![5.7.0h](screenshots/5.7.0h.jpg) |
+
 Prebuilt APKs and IPAs are in [Minion-Rush-Revival-Builds](https://github.com/dotxr/Minion-Rush-Revival-Builds).
 
 ## Game data
